@@ -1,0 +1,30 @@
+.option{
+  background-color: rgb(155, 76, 229);
+  border-radius: .5rem;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.4s;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.option:hover{
+  opacity: 1;
+}
+
+
+
+.correct{
+  background-color: green;
+  font-weight: bold;
+
+}
+.wrong{
+  background-color: rgb(60, 12, 106);
+  opacity: .4;
+}
+
+

@@ -1,0 +1,75 @@
+ #choose-lang button{
+  text-align: center;
+  max-width: 500px;background-color: rgb(92, 16, 162);
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+#container-btn{
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+#choose-lang{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+ 
+}
+
+.container-btn{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#choose-lang h3{
+
+  font-size: 3rem;
+}
+#choose-lang h3, #choose-lang p{
+  margin-bottom: 2.5rem;
+  letter-spacing: .8px;
+
+
+}
+
+
+#choose-lang p{
+  color: rgb(203, 182, 222);
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+
+#choose-lang img{
+  margin-top: 3rem;
+  width: 55%;
+ 
+}
+
+#choose-lang button{
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.7rem 1.7rem;
+  background:linear-gradient(90deg, 
+  rgb(123, 44, 214) 0%, 
+  rgb(157, 128, 190)100%);
+  border-radius: 50px;
+  cursor: pointer;
+  letter-spacing: 3px; 
+  border:1px solid white
+
+}
+
+#choose-lang button:hover{
+  background-color:linear-gradient(90deg, 
+  rgb(123, 44, 214) 100%, 
+  rgb(157, 128, 190)0%); ;
+}

@@ -1,0 +1,83 @@
+#welcome{
+  text-align: center;
+  min-width: 500px;
+  position: relative;
+  
+}
+
+#welcome h2{
+  font-size: 4rem;
+}
+
+#welcome h2, #welcome p{
+  margin-bottom: 1rem;
+
+}
+
+#welcome p{
+  color: rgb(203, 182, 222);
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  
+}
+
+#welcome img{
+  margin-top: 6rem;
+  width: 50%;
+}
+
+
+#welcome button{
+  display: block;
+position: absolute;
+top: 18%;
+left: 50%;
+transform: translate(-50%, 50%);
+letter-spacing: 2px;
+  font-weight: bold;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  padding: 0.7rem 3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  animation-duration: 5s;
+  animation-name: grow;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+  background-color: blueviolet;
+  /* animation-timing-function:ease-in-out; */
+  box-shadow: 10px 10px 45px 0px rgba(57, 51, 51, 0.76);
+
+}
+
+
+
+#welcome button:hover{
+  background:linear-gradient(90deg, 
+  rgb(140, 100, 186) 0%, 
+  rgba(132, 53, 221)100%);
+}
+
+
+@keyframes grow {
+  40% {
+    background: #2d035a;
+    padding: 1.2rem 3rem;
+    
+    
+  
+  }
+ 
+  60% {
+    background: #90331c;
+    
+    
+ 
+  }
+  80% {
+    background: #02574c;
+   
+   
+   
+  }
+}
